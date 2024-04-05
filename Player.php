@@ -72,7 +72,8 @@ public function getRole(){
 }
 
 public function __toString() {
-    return $this->getPrenom().' '. $this->getNom().'<br> Born Country: ' . $this->getCountry().' <br>Date of debut: ' . $this->getyeardebut()->format('Y-m-d'). '<br> Born Date:' . $this->getDateNaissance()->format('Y-m-d');
+    echo "<br>";
+    return $this->getNom().' '. $this->getPrenom().'<br> Born Country: ' . $this->getCountry().' <br>Date of debut: ' . $this->getyeardebut()->format('Y-m-d'). '<br> Born Date:' . $this->getDateNaissance()->format('Y-m-d');
 }
 
 }

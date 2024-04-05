@@ -7,8 +7,8 @@ require_once 'Country.php';
 require_once 'Contract.php'; 
 
 // Creating Countries
-$country = new Country("France");
-$country2 = new Country("Spain");
+$country = new Country(" France");
+$country2 = new Country("Spain ");
 $country3 = new Country("Brazil");
 
 // Creating Players
@@ -17,7 +17,7 @@ $Player2 = new Player("Vinicius", "Junior", "2017-01-01", "Brazil", "2000-07-12"
 
 
 // Creating Teams
-$Team1 = new Team("Real Madrid", "1902-03-06", $country2);
+$Team1 = new Team("Real Madrid ", "1902-03-06", $country2);
 $Team2 = new Team("PSG", "1902-03-08", $country); 
 
 // Creating Roles 
