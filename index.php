@@ -36,4 +36,6 @@ echo $Player2->getRole();
 echo $Team2->getName();
 echo $Team2->getCountry()->getName();
 
+echo "test ";
+
 ?>
